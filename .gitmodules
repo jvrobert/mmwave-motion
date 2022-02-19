@@ -1,3 +1,9 @@
 [submodule "components/provisioning-manager"]
 	path = components/provisioning-manager
 	url = https://github.com/jvrobert/provisioning-manager.git
+[submodule "components/mqtt-manager"]
+	path = components/mqtt-manager
+	url = https://github.com/jvrobert/mqtt-manager.git
+[submodule "components/sen0395"]
+	path = components/sen0395
+	url = https://github.com/jvrobert/sen0395.git
