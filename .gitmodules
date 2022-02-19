@@ -1,0 +1,3 @@
+[submodule "components/provisioning-manager"]
+	path = components/provisioning-manager
+	url = https://github.com/jvrobert/provisioning-manager.git
