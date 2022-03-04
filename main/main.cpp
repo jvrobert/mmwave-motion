@@ -15,6 +15,7 @@ void Motion(bool detected)
     auto mqtt = MqttManager::GetInstance();
     std::string msg;
     AddJsonKv("detected", detected, msg);
+    AddJsonKv("source", ProvisioningManager::GetInstance()->GetHostName(), msg);
     msg += "}";
     mqtt->Publish(TOPIC, msg);
     printf("Motion state: %d\n", detected);
